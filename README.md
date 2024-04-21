@@ -7,9 +7,8 @@ To install Topstack, follow these steps:
 
 * Clone the repository: 
 
-  SSH: git clone git@github.com:kosmosoph/TopStack-proto.git
-  HTTPS: git clone  https://github.com/kosmosoph/topstack.git
-
+  SSH: git clone git@github.com:kosmosoph/TopStack-proto.git \
+  HTTPS: git clone https://github.com/kosmosoph/TopStack-proto.git
 * Navigate to the project root directory: cd topstack
 * Install the dependencies: yarn install
 
