@@ -1,0 +1,19 @@
+{
+  "name": "topstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kosmosoph/topstack.git",
+  "author": "kosmosoph <nasivo@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "api",
+    "client"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace api start \" \"yarn workspace client start \""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
